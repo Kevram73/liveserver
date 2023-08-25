@@ -1,18 +1,17 @@
 import Head from "next/head";
-import Header from "./component/Header";
-import Main from "./component/Main";
+import Header from "@/app/(main)/component/Header";
+import Main from "@/app/(main)/component/Main";
+import Sidebar from "@/app/(main)/component/Sidebar";
+
 
 const Home = () => {
     return (
-        <div>
-            <Head>
-                <title>Yout!ube clone</title>
-            </Head>  
+        <div className="h-screen w-screen flex bg-gray-200">
 
-            <main>
-                <Header />
-                <Main />
-            </main>  
+            <Sidebar/>
+            <Header />
+            <Main />
+            
         </div>
 
     );
