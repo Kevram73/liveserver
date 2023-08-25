@@ -1,21 +1,21 @@
-import Link from 'next/link';
+import Head from "next/head";
+import Header from "./component/Header";
+import Main from "./component/Main";
 
-const Main = () =>{
-    return(
-        
+const Home = () => {
+    return (
         <div>
-            <div>
-                Client space on building ...
-            </div>
-            <div>
-                <Link href="/auth/login">Admin Login page</Link>
-            </div>
-            <div>
-                <Link href="/admin/">Admin Space</Link>
-            </div>
-            
+            <Head>
+                <title>Yout!ube clone</title>
+            </Head>  
+
+            <main>
+                <Header />
+                <Main />
+            </main>  
         </div>
-    )
+
+    );
 }
 
-export default Main;
+export default Home
