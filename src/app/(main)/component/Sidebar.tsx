@@ -4,7 +4,7 @@ const Sidebar = () => {
     return (
        
 
-	        <aside className="flex flex-col items-center bg-white text-gray-700 shadow h-full">
+	        <aside className="flex flex-col items-center bg-white text-gray-700 shadow h-full fixed">
                 <div className="h-16 flex items-center w-full">
                     <a className="h-6 w-6 mx-auto" href="http://svelte.dev/">
                         <img

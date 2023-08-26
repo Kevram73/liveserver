@@ -6,16 +6,10 @@ import Sidebar from "@/app/(main)/component/Sidebar";
 
 const Home = () => {
     return (
-        <div className="h-screen w-screen flex bg-gray-200">
-
-            <Sidebar/>
-            <div>
-                <Main />
-            </div>
-            
-            
-        </div>
-
+       <main>
+        <Main/>
+        <Header/>
+       </main>
     );
 }
 
