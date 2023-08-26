@@ -9,8 +9,10 @@ const Home = () => {
         <div className="h-screen w-screen flex bg-gray-200">
 
             <Sidebar/>
-            <Header />
-            <Main />
+            <div>
+                <Main />
+            </div>
+            
             
         </div>
 
